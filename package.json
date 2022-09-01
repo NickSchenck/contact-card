@@ -21,6 +21,10 @@
     "url": "https://github.com/NickSchenck/contact-card/issues"
   },
   "homepage": "https://github.com/NickSchenck/contact-card#readme",
+  "heroku-prebuild": "npm install --dev",
+  "engines": {
+    "node": "16.15.1"
+  },
   "dependencies": {
     "concurrently": "^7.3.0"
   }
